@@ -61,7 +61,7 @@ footer {
     background-color: black;
     clear: both;
     height: 500px;
-    background-image: url(../Images/footerbg.png);
+    background-image: url('../Images/footerbg.png');
     background-position: 50% 50%;
 }
 
