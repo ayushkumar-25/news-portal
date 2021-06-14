@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.css">
+    <title>News Portal</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <div class="col-3">
+                <img class="logo"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAA0lBMVEXTHwH////RAADUBADIoZ/l6OjTEADTIgrn6+zNfXjNd3Lturjnm5fTGQDmmJT8/Pz19fX+/Pzx8fH89fXssq/PSD7QQDXGzc7N1NTZ4ODm5ubXQzjda2T88/P44+L229rRNSfWPTHji4bOZF3VMCHhfnnOUkrz0dDOamXpp6TNj43OTUPPQjfGqKfFv7/KysrKtLTGmJbMrKvPXFXbW1Pfd3HTx8bwxMLcYlve3N3pysnsvr3UjovZsa/bwcDq2djWi4fXpKLTzc3Nk5DRKBXQ399ApabfAAAHyUlEQVR4nO2ca1viOBSASwLhopGLIqDIReWiKIiIyniZGWX//1/aFgWac9Imu84jHXreD/vswzRt8nrSJM3FcQiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIDaF/GTT+fhrkEJwzs8Py4NB+arl/b/YCnmSfwnTvQ/7l9fDSnXJ6GacHQiDOmHx3A27l93kVxiL4DtzeTZ2jdWOMqWCSz7v/qdUyqRq1dvcPKTcYmx+7nV5s97kWS31BWZB2iS/eh+5ykqFfAKQL5RStdsJD0rKh+bnZuqb1paCxfov7DP9XfngulI9WiprHHTujo8H04vGSl0pc99n+qLz+4L5wVHUdtLoNeBvvWajaKuNt5KVWWYZZjvHjAmvHRWMtQ9WSQuZ+4m+qnLZujt9CBLW23tspwOMfxtQW2+33mYuv2Dd8n6U5c6B6lOnTfJspbqS1mz5iyhZu7lKnM+8OPqa6imWP3TSGuduNjbfk1G0NTrCCwz3Z5HNgPymvZ8XAXPh14aLLeY3bvVcXnAA40KydcAlCrNJYFssmcbbyabD7BOx1lbssJWEAG0ekomnkGjj3VG1tArVXU00Mp/3fOZZ/3b0HnSO33H14Jb7WxH9pbZm2leAEG2euE5gtPF+ZbYu7YHWCdvx3bfwEhhA7BW+KQJaoO9npa2n5D5Um1ug+jJCgTb3tXa0LmsjoJTsp+/G+dcgb/wShlsvatoaat4N2hx2qtWmWku0A3zIY7+PQG84E09R0zZXc27S5rAnjTa3hvqt6avoIvW7cu9X/YUiBzOxEzFtpyA/Rm0yXULaRFexlgjpJ4gj5ea/tToir+0EZseozfno2fm1yflo5rcWHGxuXIJ+IfyzfWQi6tpOYYNo1ubIFNDGb6rKKzzozbZILNVedl43NI+8NtQbstDGfucVbTxbLfkTNEOLuEjt46fm6qhre0C5sYm2bskvXLYq6vsKRbAmtY8LbCTK2nIpXQkttDls5tfGkzM1fs7Dh0GL1D7yLXR91LUd4xxbaOMv+bU22VWraGBXd5Ua1FJdyEdZWyZR1NQPC20i67YAy1/5dU3VENaOLlL3QS1NXMEnRFybJjBstMluZqVNDkCwJTqGQbc8Nw4BIq5NM9Kz0jZfa+NJEGyh3Y8F7A0O1OEjIqxNtuvTO1xCG22OPJtOP36V6QoINk3FByxejQp7cKgSXW3eRKaup2mjzUv7eXkOBpupRXDTPMPvGzBNlLXpsdO2gl/DGQncLqJH9OEjYMXeem0S1lFd7xWmGSBtoP+47drkBNZRwxhhkWiOEv1QrWy7NvGMDEzNH/05SnQSL238GtU3TeuMUqEeCBiQbb22EXy1mbttbqpXNDOlTkxtu7Z0FQmYW2i7Ran24qRNltFbKuFYaEsibepAdtu14Ya0aDF5zseoaj/ESdvi45OKZpEDgr8jbb1YactibRblE1hbI1banlH/A02F6ZJdomSkzeIZcdeGy0/a/le02b3bYq4NXWyljWNtzVhpQ8VDC7h0aPptseqAyDOkLWHT3U0ibTux0lbGq81Dv2p+wG+Rtt04aXMkHpMa5uQ9+A3SNo3TUF735cxic49m28ZxvL63obk7myXdfAS1FeM1lyB+obgxTcq7cPSVDqzt2nZtmkko3YYEkOgcvREv4qUNrbqyKaDsIm1gAmLrtaFVV4a1lItH9KE2OLTYem1obaTFWF5cwt4eXNu19doc9gYuN8/B4FlCuMBt+7WJLKylj0ZtcJYQ1evt1wb3Z5ibUtmC/Q80kR8DbXB/hnFXGWoR8NKuGGhzBFz5bbiej0GLgMcVsdB2BsLNMLwS4NWmWwkbA20Oe1UThG9ilBPwatN8MomFNumo4ZMPjTY+rilX6/aqxUKbIx7Brr0Qb3Kurr/UrlndBm0WS4jYs5IibNUzVxcS6i/9C7WhOUy8wQjDXpQkwR+P5Hzkb0f39X+Tv08bT8IcG3v9HurRHaXAQvJ3f4NQbOv94pA3rz/fLPg7/57FFB488iRo35XoVnxCiscBt8YTqebvKhtFztGX1x9WOZbsyZ+ork0k00PfJsqTVvDRWvBvZ95bs1F4Fs9FWbQJHv4zZRKFskaJVHaHNwMPIhBdvLbVYgH65hCtERyZe+Fm6W3qM17qojOMpLzx7QZEZyCtMyGHM/S3K6Wj6G1xXBgX/RHOcCLxeuUdLGk+zUrMm75yZlUvkpeHa2v7j7pat8gE7w5xsCUSR31mlYnvRLYG3bNsclid6Q6ey6fu33Nn3cG58Tass05fuJ945fz4B8FbY98ZSAdMFzvysDzJvd9U9JnIvCVzk/Lh/E+X/QuI52q1Vqul8MGIH1kuZFK12j85cz1h4iK/Luj9c3fuho9IH+a8MwSX//LQ1r/g+dDLxVFJn4lEvuRlYhKheNMsVNNg3k7lBZzcPVkFXKZWHQ2Hw1G1Ost8hlDxoB14ItRb9A9ZVJDdX3uh7HpY7Avy7sXY487+Kk4LJZfCMox7HRHcwIjcx3NCsRm0fBveaYBGrDPsmhvsPZyoYVLsXdSZ9p22QljkIkrW/jzSK+JV/XTvwmX3dHrn/RDFPkQEkcvwESJaPQeCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCILaPfwHJp6MjXz/kEQAAAABJRU5ErkJggg=="
+                    height="" width="143">
+            </div>
+            <div class="col-3">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="http://">News</a>
+                        </li>
+                        <li>
+                            <a href="http://">Technology</a>
+                        </li>
+                        <li>
+                            <a href="http://">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="http://">Events</a>
+                        </li>
+                        <li>
+                            <a href="http://">International News</a>
+                        </li>
+                        <li>
+                            <a href="http://">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div><!-- Header-Container Ends Here -->
+
+        <div id="feature-section">
+            <h1 class="feature-section-title">India Sees Fewest New Covid Cases Since April 1, Deaths At Nearly 4,000
+            </h1>
+            <div class="feature-content">
+                <div class="col-3">
+                    <img src="https://choosingwiselycanada.org/wp-content/uploads/2020/11/COVID-19_2.png">
+                    <h3>Head Line 1</h3>
+                    <p>India's daily test positivity rate - number of positive cases identified per 100 - continues to
+                        decline. For the seventh straight day, it was below the 5 per cent mark at 4.71 per cent</p>
+                </div>
+                <div class="col-3">
+                    <img src="https://choosingwiselycanada.org/wp-content/uploads/2020/11/COVID-19_2.png">
+                    <h3>Head Line 2</h3>
+                    <p>Tamil Nadu added 14,106 cases to the country's daily numbers. It was followed by Kerala (11,584
+                        cases) and Maharashtra (10,442 cases). </p>
+                </div>
+                <div class="col-3">
+                    <img src="https://choosingwiselycanada.org/wp-content/uploads/2020/11/COVID-19_2.png">
+                    <h3>Head Line 3</h3>
+                    <p>Shops, malls and restaurants in Delhi will open from today as Covid numbers in the national
+                        capital drop to a three-month low. Shops will be open seven days a week instead of the earlier
+                        odd-even system. Chief Minister Arvind Kejriwal has cautioned this will be on trial basis for a
+                        week and strict action will be taken if the Covid numbers rise.</p>
+                </div>
+            </div>
+
+        </div> <!-- End Featured Section -->
+    </header>
+
+    <footer>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/twitter.png" alt="twitter" height="48" width="55">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/facebook.png" alt="twitter" height="55" width="28">
+            </div>
+        </div>
+        <div class="social-footer">
+            <div class="center">
+                <img src="Images/instagram.png" alt="twitter" height="52" width="52">
+            </div>
+        </div>
+        <p style="text-align: center; padding-top:300px;"><img
+                src="data:image/png;base64,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"
+                width="143" height=""></p>
+        <span class="copyright">&copy; Copyright 2021 Times of India; in New Delhi</span>
+    </footer>
+</body>
+
+</html>
